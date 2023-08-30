@@ -1,0 +1,13 @@
+{
+  hostname: lemmy-epsilon:8581
+  port: 8581
+  tls_enabled: false
+  setup: {
+    admin_username: lemmy_epsilon
+    admin_password: lemmylemmy
+    site_name: lemmy-epsilon
+  }
+  database: {
+    host: postgres_epsilon
+  }
+}

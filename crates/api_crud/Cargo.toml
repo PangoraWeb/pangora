@@ -1,0 +1,26 @@
+[package]
+name = "lemmy_api_crud"
+version.workspace = true
+edition.workspace = true
+description.workspace = true
+license.workspace = true
+homepage.workspace = true
+documentation.workspace = true
+repository.workspace = true
+
+[dependencies]
+lemmy_utils = { workspace = true }
+lemmy_db_schema = { workspace = true, features = ["full"] }
+lemmy_db_views = { workspace = true, features = ["full"] }
+lemmy_db_views_actor = { workspace = true, features = ["full"] }
+lemmy_api_common = { workspace = true, features = ["full"] }
+activitypub_federation = { workspace = true }
+bcrypt = { workspace = true }
+serde = { workspace = true }
+actix-web = { workspace = true }
+tracing = { workspace = true }
+url = { workspace = true }
+async-trait = { workspace = true }
+webmention = "0.5.0"
+chrono = { workspace = true }
+uuid = { workspace = true }

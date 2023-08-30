@@ -1,0 +1,13 @@
+{
+  hostname: lemmy-delta:8571
+  port: 8571
+  tls_enabled: false
+  setup: {
+    admin_username: lemmy_delta
+    admin_password: lemmylemmy
+    site_name: lemmy-delta
+  }
+  database: {
+    host: postgres_delta
+  }
+}

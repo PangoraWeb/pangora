@@ -1,0 +1,49 @@
+[package]
+name = "lemmy_apub"
+version.workspace = true
+edition.workspace = true
+description.workspace = true
+license.workspace = true
+homepage.workspace = true
+documentation.workspace = true
+repository.workspace = true
+
+[lib]
+name = "lemmy_apub"
+path = "src/lib.rs"
+doctest = false
+
+[dependencies]
+lemmy_utils = { workspace = true }
+lemmy_db_schema = { workspace = true, features = ["full"] }
+lemmy_db_views = { workspace = true, features = ["full"] }
+lemmy_db_views_actor = { workspace = true, features = ["full"] }
+lemmy_api_common = { workspace = true, features = ["full"] }
+activitypub_federation = { workspace = true }
+diesel = { workspace = true }
+chrono = { workspace = true }
+serde_json = { workspace = true }
+serde = { workspace = true }
+actix-web = { workspace = true }
+tokio = { workspace = true }
+tracing = { workspace = true }
+strum_macros = { workspace = true }
+url = { workspace = true }
+http = { workspace = true }
+futures = { workspace = true }
+itertools = { workspace = true }
+uuid = { workspace = true }
+async-trait = { workspace = true }
+anyhow = { workspace = true }
+reqwest = { workspace = true }
+once_cell = { workspace = true }
+html2md = "0.2.14"
+serde_with = { workspace = true }
+enum_delegate = "0.2.0"
+moka = { version = "0.11", features = ["future"] }
+
+[dev-dependencies]
+serial_test = { workspace = true }
+reqwest-middleware = { workspace = true }
+task-local-extensions = "0.1.4"
+assert-json-diff = "2.0.2"
