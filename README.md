@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/github/license/PangoraWeb/pangora.svg?style=for-the-badge)](LICENSE)
 ![GitHub stars](https://img.shields.io/github/stars/PangoraWeb/pangora.svg?style=for-the-badge)
 
+</div>
 <div align="center">
   <img src="https://github.com/Ategon/Pippit/assets/73616169/ac008c07-8459-4f77-bae1-30f4da3b631f" width=200px height=200px></img>
   <h3 align="center"><a href="">Pangora</a></h3>
@@ -22,11 +23,11 @@ We are downstream from [lemmy](https://github.com/LemmyNet/lemmy) meaning we pul
 
 ## Installation
 
-[TODO]
+Not ready for public use yet, use lemmy instead
 
 ## Contributing
 
-[TODO]
+You can check out the contributing section in the lemmy repository for a guide on how to get started developing for lemmy. For development on pangora, wherever it says to use a lemmy repository, swap it out for the equivalent pangora repository (although note that pangora-ui is completely different from lemmy-ui and will not work on an instance yet)
 
 ## Support / Donate
 
