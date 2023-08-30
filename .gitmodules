@@ -1,4 +1,4 @@
 [submodule "crates/utils/translations"]
 	path = crates/utils/translations
-	url = https://github.com/LemmyNet/lemmy-translations.git
+	url = https://github.com/PangoraWeb/pangora-translations.git
         branch = main
