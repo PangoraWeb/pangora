@@ -7,7 +7,7 @@
 
 </div>
 <div align="center">
-  <img src="https://github.com/Ategon/Pippit/assets/73616169/ac008c07-8459-4f77-bae1-30f4da3b631f" width=200px height=200px></img>
+  <img src="https://github.com/PangoraWeb/pangora/assets/73616169/f0646f89-ef73-4946-a961-5a1fd1ad0fe0" width=200px height=200px></img>
   <h3 align="center"><a href="">Pangora</a></h3>
   <p align="center">
     A fediverse compatible forum and link aggregator.
@@ -40,4 +40,4 @@ Pangora is a free and open source project. There is currently no way to donate b
 
 ## Credits
 
-Logo base by [Delapouite](https://delapouite.com/) under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) with modifications to add a gradient
+Icon base by [Lorc](https://lorcblog.blogspot.com/) under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) with modifications to add a gradient
