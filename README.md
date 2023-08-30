@@ -27,7 +27,7 @@ Not ready for public use yet, use lemmy instead
 
 ## Contributing
 
-You can check out the contributing section in the lemmy repository for a guide on how to get started developing for lemmy. For development on pangora, wherever it says to use a lemmy repository, swap it out for the equivalent pangora repository (although note that pangora-ui is completely different from lemmy-ui and will not work on an instance yet)
+You can check out the contributing section in the [lemmy](https://github.com/LemmyNet/lemmy) repository for a guide on how to get started developing for lemmy. For development on pangora, wherever it says to use a lemmy repository, swap it out for the equivalent pangora repository (although note that pangora-ui is completely different from lemmy-ui and will not work on an instance yet)
 
 ## Support / Donate
 
