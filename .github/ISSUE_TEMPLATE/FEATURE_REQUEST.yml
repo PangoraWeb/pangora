@@ -1,24 +1,23 @@
 name: "\U0001F680 Feature request"
-description: Suggest an idea for improving Lemmy
+description: Suggest an idea for improving Pangora
 labels: ["enhancement"]
 body:
   - type: markdown
     attributes:
       value: |
-        Have a suggestion about Lemmy's UI?
-        For backend issues, use [lemmy](https://github.com/LemmyNet/lemmy)
+        Have a suggestion about Pangora's UI?
   - type: checkboxes
     attributes:
       label: Requirements
-      description: Before you create a bug report please do the following.
+      description: Before you create a feature request please do the following.
       options:
-        - label: Is this a feature request? For questions or discussions use https://lemmy.ml/c/lemmy_support
+        - label: Is this a feature request? For questions or discussions use https://programming.dev/c/pangora
           required: true
         - label: Did you check to see if this issue already exists?
           required: true
         - label: Is this only a feature request? Do not put multiple feature requests in one issue.
           required: true
-        - label: Is this a backend issue? Use the [lemmy-ui](https://github.com/LemmyNet/lemmy-ui) repo for UI / frontend issues.
+        - label: Is this a backend issue? Use the [lemmy-ui](https://github.com/PangoraWeb/pangora-ui) repo for UI / frontend issues.
           required: true
   - type: textarea
     id: problem
