@@ -1,5 +1,5 @@
 name: "\U0001F41E Bug Report"
-description: Create a report to help us improve lemmy
+description: Create a report to help us improve pangora
 title: "[Bug]: "
 labels: ["bug", "triage"]
 body:
@@ -8,19 +8,19 @@ body:
       value: |
         Found a bug? Please fill out the sections below. 👍
         Thanks for taking the time to fill out this bug report!
-        For front end issues, use [lemmy](https://github.com/LemmyNet/lemmy-ui)
+        For front end issues, use [pangora-ui](https://github.com/PangoraWeb/pangora-ui)
   - type: checkboxes
     attributes:
       label: Requirements
       description: Before you create a bug report please do the following.
       options:
-        - label: Is this a bug report? For questions or discussions use https://lemmy.ml/c/lemmy_support
+        - label: Is this a bug report? For questions or discussions use https://programming.dev/c/pangora
           required: true
         - label: Did you check to see if this issue already exists?
           required: true
         - label: Is this only a single bug? Do not put multiple bugs in one issue.
           required: true
-        - label: Is this a backend issue? Use the [lemmy-ui](https://github.com/LemmyNet/lemmy-ui) repo for UI / frontend issues.
+        - label: Is this a backend issue? Use the [pangora-ui](https://github.com/PangoraWeb/pangora-ui) repo for UI / frontend issues.
           required: true
   - type: textarea
     id: summary
@@ -47,22 +47,21 @@ body:
     attributes:
       label: Technical Details
       description: |
-        - Please post your log: `sudo docker-compose logs > lemmy_log.out`.
-        - What OS are you trying to install lemmy on?
+        - Please post your log: `sudo docker-compose logs > pangora_log.out`.
+        - What OS are you trying to install pangora on?
         - Any browser console errors?
     validations:
       required: true
   - type: input
-    id: lemmy-backend-version
+    id: pangora-backend-version
     attributes:
       label: Version
-      description: Which Lemmy backend version do you use? Displayed in the footer.
+      description: Which Pangora backend version do you use? Displayed in the footer.
       placeholder: ex. BE 0.17.4
     validations:
       required: true
   - type: input
-    id: lemmy-instance
+    id: pangora-instance
     attributes:
-      label: Lemmy Instance URL
-      description: Which Lemmy instance do you use? The address
-      placeholder: lemmy.ml, lemmy.world, etc
+      label: Pangora Instance URL
+      description: Which Pangora instance do you use? (The site address)
