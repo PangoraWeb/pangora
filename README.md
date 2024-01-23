@@ -21,6 +21,9 @@ Pangora is a forum and link aggregator. You can post links, images, discussions,
 
 We are downstream from [lemmy](https://github.com/LemmyNet/lemmy) meaning we pull changes they make into pangora and and try to merge some changes we make upstream to them
 
+> [!warning]
+> The project is currently being restructured. Most of the development time is now being spent on sublinks until that can be soft forked into a new version of pangora
+
 ## Installation
 
 Not ready for public use yet, use lemmy instead
